@@ -13,12 +13,10 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Requests injection of {@link javax.jdo.PersistenceManager} into field ir parameter buy borrowing
+ * Requests injection of {@link javax.jdo.PersistenceManager} into field or parameter buy borrowing
  * instance of PersistenceManager from specified {@link com.peacetech.jdo.pmpool.PersistenceManagerPool}<br/>
- * Injected PersistenceManager is registered with http request and returned to the pool
- * at the end of request lifecycle automatically by {@link JAXRSJDOServletContainer}<br/>
+ * Injected PersistenceManager is registered with CloseableService and returned to the pool at the end of request lifecycle
  *
- * @see com.peacetech.jaxrs.providers.PersistenceManagerInjector
  */
 @Target({ElementType.PARAMETER, ElementType.FIELD})
 @Retention(RetentionPolicy.RUNTIME)
@@ -30,6 +28,8 @@ public @interface JDO {
    * @return Class providing access to PersistenceManagerPool
    */
   Class<?> value();
+
+  Scope scope() default Scope.PER_LOOKUP;
 
   /**
    * Class or Interface to set userObject into injected PersistenceManager.<br/>

@@ -415,6 +415,7 @@
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
   <component name="libraryTable">
     <library name="Maven: com.google.guava:guava:14.0.1">
@@ -637,15 +638,15 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/containers/jersey-container-servlet/2.4.1/jersey-container-servlet-2.4.1-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.glassfish.jersey.core:jersey-client:2.4.1">
+    <library name="Maven: org.glassfish.jersey.core:jersey-client:2.5">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-client/2.4.1/jersey-client-2.4.1.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-client/2.5/jersey-client-2.5.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-client/2.4.1/jersey-client-2.4.1-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-client/2.5/jersey-client-2.5-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-client/2.4.1/jersey-client-2.4.1-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-client/2.5/jersey-client-2.5-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.glassfish.jersey.core:jersey-common:2.4.1">
@@ -659,15 +660,15 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-common/2.4.1/jersey-common-2.4.1-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.glassfish.jersey.core:jersey-server:2.4.1">
+    <library name="Maven: org.glassfish.jersey.core:jersey-server:2.5">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.4.1/jersey-server-2.4.1.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.5/jersey-server-2.5.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.4.1/jersey-server-2.4.1-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.5/jersey-server-2.5-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.4.1/jersey-server-2.4.1-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.5/jersey-server-2.5-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: solarmetric.kodo34:jdo:1.0.2">

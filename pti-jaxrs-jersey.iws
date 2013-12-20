@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a524ed8a-97cb-4256-9456-cf69664d5acf" name="Default" comment="" />
+    <list default="true" id="a524ed8a-97cb-4256-9456-cf69664d5acf" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/peacetech/jaxrs/Scope.java" />
+      <change type="DELETED" beforePath="Z:\projects\peacetech-java\jaxrs\trunk\pti-jaxrs-jersey\src\main\java\com\peacetech\jaxrs\providers\PersistenceManagerPoolHolder.java" afterPath="" />
+      <change type="DELETED" beforePath="Z:\projects\peacetech-java\jaxrs\trunk\pti-jaxrs-jersey\src\main\java\com\peacetech\jaxrs\providers\PersistenceManagerPoolPair.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/peacetech/jaxrs/JDO.java" afterPath="$PROJECT_DIR$/src/main/java/com/peacetech/jaxrs/JDO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/peacetech/jaxrs/providers/PersistenceManagerBinder.java" afterPath="$PROJECT_DIR$/src/main/java/com/peacetech/jaxrs/providers/PersistenceManagerBinder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pti-jaxrs-jersey.iml" afterPath="$PROJECT_DIR$/pti-jaxrs-jersey.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pti-jaxrs-jersey.ipr" afterPath="$PROJECT_DIR$/pti-jaxrs-jersey.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pti-jaxrs-jersey.iws" afterPath="$PROJECT_DIR$/pti-jaxrs-jersey.iws" />
+    </list>
     <ignored path="pti-jaxrs-jersey.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,8 +65,8 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/peacetech/jaxrs/providers/PersistenceManagerBinder.java" line="58" class="com.peacetech.jaxrs.providers.PersistenceManagerBinder.PersistenceManagerInjectionResolver" package="com.peacetech.jaxrs.providers">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/peacetech/jaxrs/providers/PersistenceManagerBinder.java" line="65" class="com.peacetech.jaxrs.providers.PersistenceManagerBinder.PersistenceManagerInjectionResolver" package="com.peacetech.jaxrs.providers">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -81,34 +91,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PersistenceManagerBinder.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PersistenceManagerBinder.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/peacetech/jaxrs/providers/PersistenceManagerBinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="13" selection-start="2714" selection-end="2714" vertical-scroll-proportion="0.0" vertical-offset="1081" max-vertical-offset="3197">
+            <state line="93" column="74" selection-start="4109" selection-end="4109" vertical-scroll-proportion="0.3823178" vertical-offset="968" max-vertical-offset="5244">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1761#1801#0" expanded="true" />
+                <element signature="e#8456#8457#0" expanded="true" />
+                <element signature="e#8479#8480#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecurityContext.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/javax/ws/rs/javax.ws.rs-api/2.0/javax.ws.rs-api-2.0-sources.jar!/javax/ws/rs/core/SecurityContext.java">
+      <file leaf-file-name="JDO.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/peacetech/jaxrs/JDO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="32" selection-start="2228" selection-end="2243" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="805">
-              <folding>
-                <element signature="e#0#5083#0" expanded="false" />
-                <element signature="docComment;class#SecurityContext#0" expanded="false" />
-                <element signature="docComment;field#BASIC_AUTH#0;class#SecurityContext#0" expanded="false" />
-                <element signature="docComment;field#CLIENT_CERT_AUTH#0;class#SecurityContext#0" expanded="false" />
-                <element signature="docComment;field#DIGEST_AUTH#0;class#SecurityContext#0" expanded="false" />
-                <element signature="docComment;field#FORM_AUTH#0;class#SecurityContext#0" expanded="false" />
-                <element signature="docComment;method#getUserPrincipal#0;class#SecurityContext#0" expanded="false" />
-                <element signature="docComment;method#isUserInRole#0;class#SecurityContext#0" expanded="false" />
-                <element signature="docComment;method#isSecure#0;class#SecurityContext#0" expanded="false" />
-                <element signature="docComment;method#getAuthenticationScheme#0;class#SecurityContext#0" expanded="false" />
-              </folding>
+            <state line="17" column="0" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="644">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Scope.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/peacetech/jaxrs/Scope.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="17" selection-start="152" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="230" max-vertical-offset="437">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,20 +124,16 @@
       <file leaf-file-name="SecurityContextInjectee.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-common/2.4.1/jersey-common-2.4.1-sources.jar!/org/glassfish/jersey/internal/inject/SecurityContextInjectee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="53" selection-start="3114" selection-end="3114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1564">
-              <folding>
-                <element signature="e#0#4512#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="docComment;class#SecurityContextInjectee#0" expanded="false" />
-              </folding>
+            <state line="67" column="53" selection-start="3114" selection-end="3114" vertical-scroll-proportion="0.0" vertical-offset="1541" max-vertical-offset="2967">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="0" selection-start="1933" selection-end="1933" vertical-scroll-proportion="1.7132616" vertical-offset="61" max-vertical-offset="2208">
+            <state line="41" column="18" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2208">
               <folding />
             </state>
           </provider>
@@ -142,6 +146,9 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -149,10 +156,12 @@
         <option value="$USER_HOME$/.m2/settings.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/peacetech/jaxrs/providers/PersistenceManagerPoolHolder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/peacetech/jaxrs/JAXRSServletContainerWithCloseable.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/peacetech/jaxrs/providers/JDOFeature.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/peacetech/jaxrs/JAXRSJDOServletContainer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/peacetech/jaxrs/providers/PersistenceManagerInjector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/peacetech/jaxrs/Scope.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/peacetech/jaxrs/JDO.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/peacetech/jaxrs/providers/PersistenceManagerBinder.java" />
       </list>
     </option>
@@ -225,7 +234,7 @@
       <profile-state />
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -251,6 +260,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -329,77 +339,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pti-jaxrs-jersey" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pti-jaxrs-jersey" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="peacetech" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jaxrs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pti-jaxrs-jersey" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pti-jaxrs-jersey" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="peacetech" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jaxrs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="providers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -644,6 +585,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
@@ -878,16 +820,20 @@
       <updated>1278084122001</updated>
       <workItem from="1382655055996" duration="1119000" />
       <workItem from="1384917133958" duration="98000" />
-      <workItem from="1387029306564" duration="23964000" />
+      <workItem from="1387029306564" duration="24212000" />
+      <workItem from="1387231564069" duration="1511000" />
+      <workItem from="1387335833762" duration="30000" />
+      <workItem from="1387558697193" duration="1229000" />
+      <workItem from="1387561171987" duration="2851000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25181000" />
+    <option name="totallyTimeSpent" value="31050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="153" y="44" width="1985" height="1425" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -895,7 +841,6 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43875968" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -905,18 +850,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961413" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32680622" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960254" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33246753" sideWeight="0.67159975" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24935065" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21506493" sideWeight="0.67159975" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26857144" sideWeight="0.6701903" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26857144" sideWeight="0.6701903" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32790697" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43875968" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32680622" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="EJB" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -955,32 +901,17 @@
     </entry>
     <entry file="file://$MAVEN_REPOSITORY$/com/peacetech/maven/default-parent-pom/1.0.1/default-parent-pom-1.0.1.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="0" selection-start="3427" selection-end="3847" vertical-scroll-proportion="0.0" vertical-offset="1268" max-vertical-offset="2668">
-          <folding />
-        </state>
+        <state line="109" column="0" selection-start="3427" selection-end="3847" vertical-scroll-proportion="0.0" vertical-offset="1268" max-vertical-offset="2668" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.m2/settings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="0" selection-start="4460" selection-end="4460" vertical-scroll-proportion="0.0" vertical-offset="1333" max-vertical-offset="3289">
-          <folding />
-        </state>
+        <state line="129" column="0" selection-start="4460" selection-end="4460" vertical-scroll-proportion="0.0" vertical-offset="1333" max-vertical-offset="3289" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/containers/jersey-container-servlet-core/2.0/jersey-container-servlet-core-2.0-sources.jar!/org/glassfish/jersey/servlet/internal/PersistenceUnitBinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="13" selection-start="2809" selection-end="2809" vertical-scroll-proportion="0.0" vertical-offset="1564" max-vertical-offset="3174">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/peacetech/jaxrs/providers/PersistenceManagerPoolPair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="6" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1633">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="68" column="13" selection-start="2809" selection-end="2809" vertical-scroll-proportion="0.0" vertical-offset="1564" max-vertical-offset="3174" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -992,32 +923,17 @@
     </entry>
     <entry file="file://$MAVEN_REPOSITORY$/com/peacetech/maven/default-parent-pom/1.0.1/default-parent-pom-1.0.1.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="0" selection-start="3427" selection-end="3847" vertical-scroll-proportion="0.0" vertical-offset="1268" max-vertical-offset="2668">
-          <folding />
-        </state>
+        <state line="109" column="0" selection-start="3427" selection-end="3847" vertical-scroll-proportion="0.0" vertical-offset="1268" max-vertical-offset="2668" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.m2/settings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="0" selection-start="4460" selection-end="4460" vertical-scroll-proportion="0.0" vertical-offset="2350" max-vertical-offset="3289">
-          <folding />
-        </state>
+        <state line="129" column="0" selection-start="4460" selection-end="4460" vertical-scroll-proportion="0.0" vertical-offset="2350" max-vertical-offset="3289" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/containers/jersey-container-servlet-core/2.0/jersey-container-servlet-core-2.0-sources.jar!/org/glassfish/jersey/servlet/internal/PersistenceUnitBinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="13" selection-start="2809" selection-end="2809" vertical-scroll-proportion="0.0" vertical-offset="1564" max-vertical-offset="3174">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/peacetech/jaxrs/providers/PersistenceManagerPoolPair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="6" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1633">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="68" column="13" selection-start="2809" selection-end="2809" vertical-scroll-proportion="0.0" vertical-offset="1564" max-vertical-offset="3174" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar!/javax/servlet/http/HttpServletRequest.java">
@@ -1037,131 +953,72 @@
     </entry>
     <entry file="file://$MAVEN_REPOSITORY$/com/peacetech/maven/default-parent-pom/1.0.1/default-parent-pom-1.0.1.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="0" selection-start="3427" selection-end="3847" vertical-scroll-proportion="0.0" vertical-offset="1268" max-vertical-offset="2668">
-          <folding />
-        </state>
+        <state line="109" column="0" selection-start="3427" selection-end="3847" vertical-scroll-proportion="0.0" vertical-offset="1268" max-vertical-offset="2668" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/settings-1.0.0.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="63" selection-start="884" selection-end="884" vertical-scroll-proportion="0.46538872" vertical-offset="0" max-vertical-offset="16560">
-          <folding />
-        </state>
+        <state line="19" column="63" selection-start="884" selection-end="884" vertical-scroll-proportion="0.46538872" vertical-offset="0" max-vertical-offset="16560" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/containers/jersey-container-servlet-core/2.0/jersey-container-servlet-core-2.0-sources.jar!/org/glassfish/jersey/servlet/internal/PersistenceUnitBinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="34" selection-start="2809" selection-end="2830" vertical-scroll-proportion="0.06478291" vertical-offset="67" max-vertical-offset="1725">
-          <folding />
-        </state>
+        <state line="68" column="34" selection-start="2809" selection-end="2830" vertical-scroll-proportion="0.06478291" vertical-offset="67" max-vertical-offset="1725" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.m2/settings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="0" selection-start="4460" selection-end="4460" vertical-scroll-proportion="1.12612" vertical-offset="1333" max-vertical-offset="3289">
-          <folding />
-        </state>
+        <state line="129" column="0" selection-start="4460" selection-end="4460" vertical-scroll-proportion="1.12612" vertical-offset="1333" max-vertical-offset="3289" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/containers/jersey-container-servlet-core/2.1/jersey-container-servlet-core-2.1.jar!/org/glassfish/jersey/servlet/internal/PersistenceUnitBinder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="713">
-          <folding />
-        </state>
+        <state line="6" column="13" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="713" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/containers/jersey-container-servlet-core/2.1/jersey-container-servlet-core-2.1-sources.jar!/org/glassfish/jersey/servlet/internal/PersistenceUnitBinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="80" selection-start="4006" selection-end="4006" vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="1725">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/peacetech/jaxrs/JDO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="18" selection-start="918" selection-end="918" vertical-scroll-proportion="0.12680909" vertical-offset="0" max-vertical-offset="1451">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/peacetech/jaxrs/providers/PersistenceManagerPoolPair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="55" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1403">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="96" column="80" selection-start="4006" selection-end="4006" vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="1725" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/containers/jersey-container-servlet-core/2.1/jersey-container-servlet-core-2.1-sources.jar!/org/glassfish/jersey/servlet/WebComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.8562565" vertical-offset="828" max-vertical-offset="7751">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.8562565" vertical-offset="828" max-vertical-offset="7751" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/containers/jersey-container-servlet-core/2.1/jersey-container-servlet-core-2.1-sources.jar!/org/glassfish/jersey/servlet/ServletContainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="183" column="13" selection-start="8724" selection-end="8738" vertical-scroll-proportion="0.33298862" vertical-offset="414" max-vertical-offset="7889">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/peacetech/jaxrs/providers/PersistenceManagerPoolHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="40" selection-start="2260" selection-end="2282" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1012">
-          <folding />
-        </state>
+        <state line="183" column="13" selection-start="8724" selection-end="8738" vertical-scroll-proportion="0.33298862" vertical-offset="414" max-vertical-offset="7889" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/containers/jersey-container-servlet-core/2.4.1/jersey-container-servlet-core-2.4.1-sources.jar!/org/glassfish/jersey/servlet/WebConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="17" selection-start="2324" selection-end="2324" vertical-scroll-proportion="0.14315353" vertical-offset="0" max-vertical-offset="989">
-          <folding />
-        </state>
+        <state line="53" column="17" selection-start="2324" selection-end="2324" vertical-scroll-proportion="0.14315353" vertical-offset="0" max-vertical-offset="989" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.4.1/jersey-server-2.4.1.jar!/org/glassfish/jersey/server/ApplicationHandler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="52" selection-start="4459" selection-end="4459" vertical-scroll-proportion="0.0" vertical-offset="865" max-vertical-offset="2507">
-          <folding />
-        </state>
+        <state line="52" column="52" selection-start="4459" selection-end="4459" vertical-scroll-proportion="0.0" vertical-offset="865" max-vertical-offset="2507" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/ws/rs/javax.ws.rs-api/2.0/javax.ws.rs-api-2.0-sources.jar!/javax/ws/rs/core/Feature.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="17" selection-start="2898" selection-end="2898" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-          <folding>
-            <element signature="e#0#3936#0" expanded="false" />
-            <element signature="docComment;class#Feature#0" expanded="false" />
-            <element signature="docComment;method#configure#0;class#Feature#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="58" column="17" selection-start="2898" selection-end="2898" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-client/2.4.1/jersey-client-2.4.1.jar!/org/glassfish/jersey/client/CustomProvidersFeature.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <folding />
-        </state>
+        <state line="6" column="13" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-common/2.4.1/jersey-common-2.4.1.jar!/org/glassfish/jersey/internal/spi/AutoDiscoverable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="299">
-          <folding />
-        </state>
+        <state line="6" column="17" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="299" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-common/2.4.1/jersey-common-2.4.1-sources.jar!/org/glassfish/jersey/internal/spi/AutoDiscoverable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="17" selection-start="2609" selection-end="2609" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
-          <folding>
-            <element signature="e#0#3250#0" expanded="false" />
-            <element signature="docComment;class#AutoDiscoverable#0" expanded="false" />
-            <element signature="docComment;method#configure#0;class#AutoDiscoverable#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="54" column="17" selection-start="2609" selection-end="2609" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/containers/jersey-container-servlet-core/2.4.1/jersey-container-servlet-core-2.4.1-sources.jar!/org/glassfish/jersey/servlet/ServletContainer.java">
@@ -1173,16 +1030,12 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-client/2.4.1/jersey-client-2.4.1-sources.jar!/org/glassfish/jersey/client/CustomProvidersFeature.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="23" selection-start="1988" selection-end="2009" vertical-scroll-proportion="0.021780303" vertical-offset="0" max-vertical-offset="1056">
-          <folding />
-        </state>
+        <state line="39" column="23" selection-start="1988" selection-end="2009" vertical-scroll-proportion="0.021780303" vertical-offset="0" max-vertical-offset="1056" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.4.1/jersey-server-2.4.1-sources.jar!/org/glassfish/jersey/server/ApplicationHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="999" column="26" selection-start="46122" selection-end="46122" vertical-scroll-proportion="2.4314477" vertical-offset="14576" max-vertical-offset="17296">
-          <folding />
-        </state>
+        <state line="999" column="26" selection-start="46122" selection-end="46122" vertical-scroll-proportion="2.4314477" vertical-offset="14576" max-vertical-offset="17296" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/peacetech/jaxrs/providers/JDOFeature.java">
@@ -1196,111 +1049,51 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.4.1/jersey-server-2.4.1-sources.jar!/org/glassfish/jersey/server/ResourceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="849" column="72" selection-start="30289" selection-end="30289" vertical-scroll-proportion="0.29213482" vertical-offset="12200" max-vertical-offset="19895">
-          <folding />
-        </state>
+        <state line="849" column="72" selection-start="30289" selection-end="30289" vertical-scroll-proportion="0.29213482" vertical-offset="12200" max-vertical-offset="19895" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.4.1/jersey-server-2.4.1-sources.jar!/org/glassfish/jersey/server/ServerProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="36" selection-start="3283" selection-end="3283" vertical-scroll-proportion="0.23689139" vertical-offset="0" max-vertical-offset="2277">
-          <folding />
-        </state>
+        <state line="74" column="36" selection-start="3283" selection-end="3283" vertical-scroll-proportion="0.23689139" vertical-offset="0" max-vertical-offset="2277" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/containers/jersey-container-servlet-core/2.4.1/jersey-container-servlet-core-2.4.1-sources.jar!/org/glassfish/jersey/servlet/WebComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="289" column="90" selection-start="12165" selection-end="12165" vertical-scroll-proportion="0.65917605" vertical-offset="2746" max-vertical-offset="8165">
-          <folding />
-        </state>
+        <state line="289" column="90" selection-start="12165" selection-end="12165" vertical-scroll-proportion="0.65917605" vertical-offset="2746" max-vertical-offset="8165" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar!/javax/servlet/ServletContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="17" selection-start="4146" selection-end="4146" vertical-scroll-proportion="0.14603175" vertical-offset="0" max-vertical-offset="5474">
-          <folding />
-        </state>
+        <state line="97" column="17" selection-start="4146" selection-end="4146" vertical-scroll-proportion="0.14603175" vertical-offset="0" max-vertical-offset="5474" />
       </provider>
     </entry>
     <entry file="jar://C:/java/jdk16-32bit/jre/lib/rt.jar!/com/sun/net/httpserver/HttpContext.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="174" selection-end="174" vertical-scroll-proportion="0.09126984" vertical-offset="0" max-vertical-offset="1260">
-          <folding />
-        </state>
+        <state line="6" column="22" selection-start="174" selection-end="174" vertical-scroll-proportion="0.09126984" vertical-offset="0" max-vertical-offset="1260" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-common/2.4.1/jersey-common-2.4.1-sources.jar!/org/glassfish/jersey/internal/inject/SecurityContextInjectee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="53" selection-start="3114" selection-end="3114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1564">
-          <folding>
-            <element signature="e#0#4512#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="docComment;class#SecurityContextInjectee#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/ws/rs/javax.ws.rs-api/2.0/javax.ws.rs-api-2.0-sources.jar!/javax/ws/rs/core/SecurityContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="32" selection-start="2228" selection-end="2243" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="805">
-          <folding>
-            <element signature="e#0#5083#0" expanded="false" />
-            <element signature="docComment;class#SecurityContext#0" expanded="false" />
-            <element signature="docComment;field#BASIC_AUTH#0;class#SecurityContext#0" expanded="false" />
-            <element signature="docComment;field#CLIENT_CERT_AUTH#0;class#SecurityContext#0" expanded="false" />
-            <element signature="docComment;field#DIGEST_AUTH#0;class#SecurityContext#0" expanded="false" />
-            <element signature="docComment;field#FORM_AUTH#0;class#SecurityContext#0" expanded="false" />
-            <element signature="docComment;method#getUserPrincipal#0;class#SecurityContext#0" expanded="false" />
-            <element signature="docComment;method#isUserInRole#0;class#SecurityContext#0" expanded="false" />
-            <element signature="docComment;method#isSecure#0;class#SecurityContext#0" expanded="false" />
-            <element signature="docComment;method#getAuthenticationScheme#0;class#SecurityContext#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.4.1/jersey-server-2.4.1-sources.jar!/org/glassfish/jersey/server/ContainerRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="13" selection-start="4351" selection-end="4351" vertical-scroll-proportion="0.21036585" vertical-offset="0" max-vertical-offset="12765">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/ws/rs/javax.ws.rs-api/2.0/javax.ws.rs-api-2.0-sources.jar!/javax/ws/rs/container/ContainerRequestContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="40" selection-start="2795" selection-end="2818" vertical-scroll-proportion="-1.8535128" vertical-offset="1378" max-vertical-offset="2047">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/ws/rs/javax.ws.rs-api/2.0/javax.ws.rs-api-2.0-sources.jar!/javax/ws/rs/core/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="17" selection-start="3306" selection-end="3306" vertical-scroll-proportion="0.19884726" vertical-offset="0" max-vertical-offset="736">
-          <folding>
-            <element signature="e#0#8350#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="docComment;class#Request#0" expanded="false" />
-            <element signature="docComment;method#getMethod#0;class#Request#0" expanded="false" />
-            <element signature="docComment;method#selectVariant#0;class#Request#0" expanded="false" />
-            <element signature="docComment;method#evaluatePreconditions#0;class#Request#0" expanded="false" />
-            <element signature="docComment;method#evaluatePreconditions#1;class#Request#0" expanded="false" />
-            <element signature="docComment;method#evaluatePreconditions#2;class#Request#0" expanded="false" />
-            <element signature="docComment;method#evaluatePreconditions#3;class#Request#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/hk2/hk2-api/2.2.0-b21/hk2-api-2.2.0-b21.jar!/org/glassfish/hk2/api/Injectee.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="667">
-          <folding />
-        </state>
+        <state line="6" column="17" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="667" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/hk2/hk2-api/2.2.0-b21/hk2-api-2.2.0-b21-sources.jar!/org/glassfish/hk2/api/Injectee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="17" selection-start="2374" selection-end="2374" vertical-scroll-proportion="0.11174089" vertical-offset="0" max-vertical-offset="1235">
-          <folding />
-        </state>
+        <state line="53" column="17" selection-start="2374" selection-end="2374" vertical-scroll-proportion="0.11174089" vertical-offset="0" max-vertical-offset="1235" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/hk2/hk2-api/2.2.0-b21/hk2-api-2.2.0-b21-sources.jar!/org/glassfish/hk2/api/ServiceLocator.java">
@@ -1312,25 +1105,78 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/containers/jersey-container-servlet-core/2.4.1/jersey-container-servlet-core-2.4.1-sources.jar!/org/glassfish/jersey/servlet/internal/PersistenceUnitBinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="66" selection-start="3389" selection-end="3399" vertical-scroll-proportion="0.25555557" vertical-offset="138" max-vertical-offset="1725">
+        <state line="83" column="66" selection-start="3389" selection-end="3399" vertical-scroll-proportion="0.25555557" vertical-offset="138" max-vertical-offset="1725" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-common/2.4.1/jersey-common-2.4.1-sources.jar!/org/glassfish/jersey/message/internal/InboundMessageContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="13" selection-start="3395" selection-end="3395" vertical-scroll-proportion="0.11292962" vertical-offset="0" max-vertical-offset="13202" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/hk2/hk2-api/2.2.0-b21/hk2-api-2.2.0-b21-sources.jar!/org/glassfish/hk2/api/PerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="1" selection-start="2962" selection-end="2962" vertical-scroll-proportion="0.2651297" vertical-offset="0" max-vertical-offset="694" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/hk2/external/javax.inject/2.2.0-b21/javax.inject-2.2.0-b21-sources.jar!/javax/inject/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="21" selection-start="883" selection-end="883" vertical-scroll-proportion="0.16428572" vertical-offset="0" max-vertical-offset="1260" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/hk2/external/javax.inject/2.2.0-b21/javax.inject-2.2.0-b21-sources.jar!/javax/inject/Scope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="18" selection-start="3116" selection-end="3116" vertical-scroll-proportion="0.18253969" vertical-offset="0" max-vertical-offset="1260" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/peacetech/jaxrs/Scope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="17" selection-start="152" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="299">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/peacetech/jaxrs/JDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="644">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.4.1/jersey-server-2.4.1-sources.jar!/org/glassfish/jersey/server/ContainerRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="265" column="18" selection-start="11543" selection-end="11543" vertical-scroll-proportion="0.33306056" vertical-offset="1962" max-vertical-offset="12765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/ws/rs/javax.ws.rs-api/2.0/javax.ws.rs-api-2.0-sources.jar!/javax/ws/rs/core/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="17" selection-start="3306" selection-end="3306" vertical-scroll-proportion="0.10952381" vertical-offset="0" max-vertical-offset="1260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/ws/rs/javax.ws.rs-api/2.0/javax.ws.rs-api-2.0-sources.jar!/javax/ws/rs/container/ContainerRequestContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="11" selection-start="2789" selection-end="2789" vertical-scroll-proportion="0.10952381" vertical-offset="0" max-vertical-offset="2047">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="18" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2208">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/peacetech/jaxrs/providers/PersistenceManagerBinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="13" selection-start="2714" selection-end="2714" vertical-scroll-proportion="0.0" vertical-offset="1081" max-vertical-offset="3197">
+        <state line="93" column="74" selection-start="4109" selection-end="4109" vertical-scroll-proportion="0.3823178" vertical-offset="968" max-vertical-offset="5244">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1761#1801#0" expanded="true" />
+            <element signature="e#8456#8457#0" expanded="true" />
+            <element signature="e#8479#8480#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="1933" selection-end="1933" vertical-scroll-proportion="1.7132616" vertical-offset="61" max-vertical-offset="2208">
-          <folding />
         </state>
       </provider>
     </entry>
