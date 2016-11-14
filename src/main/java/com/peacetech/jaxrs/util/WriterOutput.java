@@ -9,9 +9,7 @@ package com.peacetech.jaxrs.util;
 
 import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.core.StreamingOutput;
-import java.io.IOException;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
+import java.io.*;
 
 /**
  * Convenience class for converting OutputStream in StreamingOutput to OutputStreamWriter
@@ -24,7 +22,7 @@ public abstract class WriterOutput implements StreamingOutput {
 
   @Override public void write(OutputStream output) throws IOException, WebApplicationException {
     @SuppressWarnings({"IOResourceOpenedButNotSafelyClosed"})
-    OutputStreamWriter out = new OutputStreamWriter(output);
+    Writer out = new BufferedWriter(new OutputStreamWriter(output));
     try {
       write(out);
     } finally {
@@ -32,5 +30,5 @@ public abstract class WriterOutput implements StreamingOutput {
     }
   }
 
-  public abstract void write(OutputStreamWriter writer) throws IOException, WebApplicationException;
+  public abstract void write(Writer writer) throws IOException, WebApplicationException;
 }
